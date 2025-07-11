@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+
+.astro-container{
+    margin: 0;
+    padding: 24px;
+    background-color: rgb(36, 35, 35);
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    position: fixed;
+}
+.astro{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 2%;
+
+}
+.astro-header{
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: 'Edu NSW ACT Hand Cursive',sans-serif;
+   
+}
+.astro-header h1{
+    font-size: 19px;
+    margin-left: 90px;
+    letter-spacing: .2rem;
+}
+.pro-info{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    margin-right: 22px;
+}
+.profile{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-left: 22px;
+}
+.profile img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+}
+.astro-body{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    margin-top: 2px;
+}
+.astro-content{
+   
+    height: 90%;
+    width: 20%;
+    padding: 0 2rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 1%;
+    margin-right: .5%;
+    
+}
+.user{
+    flex: 0 0 20%;
+    
+     border-radius: 1rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 1rem;
+     cursor: pointer;
+     margin-top: 5px;
+ }
+ .user img{
+    width: 6rem;
+    height: 6rem;
+  
+    object-fit: cover;
+    border-radius: 50%;
+}
+.user p{
+    font-family: "Comfortaa",sans-serif;
+    font-size: 1rem;
+    color: #ddd;
+    letter-spacing: .5px;
+
+
+}
+.categories{
+    position: relative;
+    width: 100%;
+    height: calc(80% - 2rem);
+  
+   
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    border: 1px transparent;
+   
+
+}
+.categories::after{
+    content: '';
+    position: absolute;
+    top: 1;
+    right: 0;
+    width: .2px; /* Border thickness */
+    height: 90%;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      #6e48aa 30%,  /* Color starts appearing at 30% from top */
+      #6e48aa 70%,  /* Color fades out at 70% from top */
+      transparent 100%
+    );
+  
+}
+.nav-heading{
+    font-family: "Bebas Neue",sans-serif;
+    font-size: 1rem;
+    color: #731aaa;
+    letter-spacing: .2rem;
+  
+   
+}
+.nav-links{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+     overflow-y: auto;
+  scrollbar-width: none;         /* optional, for slimmer scrollbar in Firefox */
+  
+}
+.nav-link{
+    font-size: .7rem;
+    font-weight: 100;
+    color: #ddd;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+    
+}
+.nav-link:hover {
+    color: #7d94e8;
+    transition: all .2s ease;
+}
+
+
+
+.logout-btn{
+     background: none;
+     color: #3155d6;
+     border: none;
+     letter-spacing: .2rem;
+  
+     margin-top: 17%;
+    
+}
+
+
+.astro-section{
+    height: 90%;
+    width: 78%;
+    background-color: #0e0e0e;
+    border-radius: 1%;
+    margin-right: .5%;
+    overflow: scroll;
+    scrollbar-width: none;
+    
+}

@@ -1,0 +1,53 @@
+.dailyHoroscope-content{
+   
+height: 100%;
+   
+    background: linear-gradient(to right ,#0a0a0a,#222222);
+}
+.dailyHoroscope-heading{
+    margin-left: .5rem;
+    font-size: 2rem;
+}
+.userInfo{
+    display: flex;
+    flex-direction: row;
+   gap: 20%;
+    align-items: center;
+}
+.select-date{
+margin-top: 1.5rem;
+margin-left: 30%;
+
+}
+.dateOfBirth{
+    margin-left: 1rem;
+}
+.dateOfBirth span{
+   color: yellow;
+}
+.dailyHoroscope-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.description{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: #e560b7;
+    letter-spacing: .1rem;
+}
+.love{
+    margin-bottom: 3%;
+    color: rgb(59, 87, 226);
+    letter-spacing: .1rem;
+}
+.career{
+    margin-bottom: 3%;
+    color: #f8457e;
+    letter-spacing: .1rem;
+}
+strong{
+    color: rgb(255, 255, 255);
+    letter-spacing: .1rem;
+}

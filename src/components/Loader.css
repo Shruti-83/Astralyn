@@ -1,0 +1,96 @@
+.atom-loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.nucleus {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+ background: linear-gradient(to right, #480986, #bb16b8);
+  border-radius: 50%;
+ 
+  
+}
+
+.orbit {
+  position: absolute;
+ 
+  border: 1px solid #3315ad;
+  border-radius: 50%;
+  
+  
+ 
+}
+.orbit-1 {
+  width: 90px;
+  height: 90px;
+}
+.orbit-2 {
+ width: 150px;
+ height: 150px;
+}
+.orbit-3 {
+  width: 210px;
+  height: 210px;
+}
+.electron {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: #53255a;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: revolve 7s linear infinite;   
+}
+
+.electron-1 {
+  top: 50%;
+  left: 50%;
+}
+.electron-2 {
+  top: 50%;
+  left: 50%;
+  animation: revolve2 10s linear infinite;   
+}
+.electron-3 {
+  top: 50%;
+  left: 50%;
+  animation: revolve3 10s linear infinite;   
+}
+
+@keyframes revolve {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(45px) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(45px) rotate(-360deg);
+  }
+}
+
+@keyframes revolve2 {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(75px) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(75px) rotate(-360deg);
+  }
+}
+
+@keyframes revolve3 {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(105px) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(105px) rotate(-360deg);
+  }
+}
